@@ -1,0 +1,24 @@
+{
+    "timestamp": "20251209_111931",
+    "total_images": 1766,
+    "summary": {
+        "cancer": 836,
+        "healthy": 930,
+        "cancer_percentage": 47.33861834654587,
+        "healthy_percentage": 52.66138165345413
+    },
+    "confidence_distribution": {
+        "cancer": {
+            "mean": 0.9584356459330143,
+            "std": 0.08229417873455114,
+            "min": 0.5629,
+            "max": 1.0
+        },
+        "healthy": {
+            "mean": 0.9596018279569892,
+            "std": 0.09953814673494706,
+            "min": 0.4445,
+            "max": 1.0
+        }
+    }
+}

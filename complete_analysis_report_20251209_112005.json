@@ -1,0 +1,50 @@
+{
+    "analysis_date": "20251209_112005",
+    "model_file": "hog_svm_model_20251209_111909.pkl",
+    "model_type": "HOG + SVM Linear",
+    "hog_parameters": {
+        "orientations": 9,
+        "pixels_per_cell": [
+            8,
+            8
+        ],
+        "cells_per_block": [
+            2,
+            2
+        ],
+        "block_norm": "L2-Hys",
+        "transform_sqrt": true,
+        "feature_vector": true
+    },
+    "training_performance": {
+        "accuracy": 0.9696641386782232,
+        "roc_auc": 0.9967142481917001,
+        "validation_samples": 923
+    },
+    "unknown_dataset_predictions": {
+        "total_images": 1766,
+        "predicted_cancer": 836,
+        "predicted_healthy": 930,
+        "cancer_percentage": 47.33861834654587,
+        "healthy_percentage": 52.66138165345413
+    },
+    "confidence_analysis": {
+        "cancer": {
+            "mean": 0.9584343286341104,
+            "std": 0.0822440460591271,
+            "min": 0.5629404074112585,
+            "max": 0.9999999999996739
+        },
+        "healthy": {
+            "mean": 0.9596021809499192,
+            "std": 0.0994846771947366,
+            "min": 0.44454341608053516,
+            "max": 0.9999940024561325
+        }
+    },
+    "conclusions": [
+        "✅ Excelente performance no treinamento",
+        "✅ Grande dataset de teste analisado (1766 imagens)",
+        "✅ Distribuição plausível (47.3% câncer)"
+    ]
+}
