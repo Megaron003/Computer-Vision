@@ -1,0 +1,28 @@
+================================================================================
+RESUMO DOS RESULTADOS - HOG+SVM PARA DETECÇÃO DE CÂNCER CEREBRAL
+================================================================================
+
+📊 PERFORMANCE NO DATASET DE TESTE (NUNCA VISTO):
+   Acurácia: 0.9711
+   AUC-ROC: 0.9963
+   Sensibilidade: 0.9487
+   Especificidade: 0.9932
+   Precisão: 0.9928
+   F1-Score: 0.9703
+
+📊 MATRIZ DE CONFUSÃO (TESTE):
+   Verdadeiro Câncer → Predito Câncer: 832
+   Verdadeiro Câncer → Predito Saudável: 45
+   Verdadeiro Saudável → Predito Câncer: 6
+   Verdadeiro Saudável → Predito Saudável: 881
+
+📈 COMPARAÇÃO TREINO-TESTE:
+   Treino (validação): 0.9805
+   Teste: 0.9711
+   Diferença: +0.0094
+
+🎯 CONCLUSÃO:
+   ✅ Excelente generalização - modelo robusto e confiável
+
+📅 Data da análise: 20251210_114525
+================================================================================
